@@ -1,0 +1,47 @@
+import React from 'react';
+import Rating from './Rating';
+import { useHistory } from "react-router-dom";
+
+const Product = props => {
+
+    const history = useHistory();
+    function viewDetails() {
+        history.push("/product-details");
+    }
+
+    return (
+        <div className="col-md-3">
+            <div className="card product-card">
+                <div className="product-image-container">
+                    <img className="card-img-top" src={props.image} alt={props.title}/>
+                </div>
+                <div className="card-body">
+                    <div className="d-flex">
+                        <i className="fa fa-address-card"></i>
+                        <div className="card-title-container">
+                            <h5 className="card-title">{props.title}</h5>
+                            <div className="card-title-description">{props.description}</div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex justify-content-between">
+                        <Rating rating={props.rating}/>
+                        <span className="badge badge-pill badge-danger">Промоция</span>
+                    </div>
+                    <div className="d-flex justify-content-between product-info align-items-center">
+                        <div className="d-flex align-items-center">
+                            <div className="sales-count">1234</div>
+                            <div className="sales-label">sales</div>
+                        </div>
+                        <div className="price">123$</div>
+                    </div>
+                    <div className="d-flex">
+                        <button type="button" className="btn btn-outline-primary card-button" onClick={viewDetails}>Details</button>
+                        <button type="button" className="btn btn-primary card-button">Action</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default Product
