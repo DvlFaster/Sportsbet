@@ -1,5 +1,6 @@
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
-$body-bg: #efefef;
+$body-bg: #232a33;
+$body-color: #fff;
 
 
 $container-max-widths: (
@@ -21,6 +22,7 @@ $theme-colors: (
     "border-light": #e6e6e6,
     "border-ultra-light": #f1f1f1,
     "section-bg": #1A212A,
+    "dark": #1a212a,
 );
 
 $grid-gutter-width: 20px;

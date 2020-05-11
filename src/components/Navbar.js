@@ -28,13 +28,13 @@ const HeaderNavbar = (props) => {
                                 activeClassName="active"
                             ><h1>Sportsbet.io</h1></NavLink>
                         </NavItem>
-                        <NavItem>
+                       {/* <NavItem>
                             <NavLink
                                 tag={RRNavLink}
                                 to="/gallery"
                                 activeClassName="active"
                             >Gallery</NavLink>
-                        </NavItem>
+                        </NavItem>*/}
                     </Nav>
                 </Collapse>
                 <select className="d-flex align-items-lg-end justify-content-lg-end">

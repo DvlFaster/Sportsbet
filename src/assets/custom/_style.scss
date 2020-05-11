@@ -1,9 +1,11 @@
-.sport-icon {
-  font-size: 1.5rem;
-  border-radius: 10px;
+.sport-line {
+    overflow-x: auto;
 }
-.nba-icon {
-  font-size: 1.5rem;
-  border-radius: 10px;
-  currentcolor: #ffd900;
+
+.sport-item {
+    max-width: 4.625rem;
+}
+.sport-icon {
+    font-size: 1.5rem;
+    border-radius: 10px;
 }

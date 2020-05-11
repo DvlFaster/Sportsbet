@@ -7,7 +7,7 @@ const ProductList = props => {
         <div className="product-list">
             <div className="row">
                 <Product
-                    image={"https://s.tmimgcdn.com/scr/67100/hazel-clean-minimalist-multi-purpose-wordpress-theme_67167-original.png"}
+                    image={"https://sportsbet-io.imgix.net/sportsbet-io/portals/home-app/assets/product_card-livecasino.png?auto=compress%2Cformat&ixlib=react-9.0.1&w=100.png"}
                     title={"Hazel - Clean Minimalist Multi-Purpose"}
                     description={"by treethemes"}
                     rating={1}
